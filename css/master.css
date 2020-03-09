@@ -99,12 +99,6 @@ nav li {
 
 /* Responsive Rules */
 
-@media screen and (max-width: 765px) {
-  .features {
-    /*display: block;*/
-  }
-}
-
 /* FOOTER */
 
 footer {
