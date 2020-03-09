@@ -4,3 +4,5 @@ This repository will be used to maintain and control the 2nature website until i
 
 Please make sure that you always keep you code well documented, clean, and DRY.
 Also please ensure that all commits are well documented on what has been done.
+
+now we are both here
