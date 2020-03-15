@@ -47,7 +47,7 @@ header .logo a {
 }
 
 /* Responsive Rules */
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 764px) {
   header {
     height: 200px;
   }
@@ -68,6 +68,22 @@ nav ul {
 nav li {
   display: inline-block;
   margin-right: 20px;
+}
+
+/* Input Login Info */
+
+input {
+  border: 2px solid rgb(76, 187, 48);
+}
+
+.feedbackblock {
+  text-align: center;
+}
+
+.feedbacktext{
+  border: 5px solid gray;
+  width: 50%;
+  height: 300px;
 }
 
 /* FEATURES */
@@ -98,10 +114,6 @@ nav li {
 }
 
 /* Responsive Rules */
-
-@media screen and (max-width: 765px) {
-  
-}
 
 /* FOOTER */
 
