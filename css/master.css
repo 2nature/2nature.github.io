@@ -70,9 +70,9 @@ nav li {
   margin-right: 20px;
 }
 
-/* Input Login Info */
+/* Form info for login/register/feedback */
 
-input {
+form.registerForm input {
   border: 2px solid rgb(76, 187, 48);
 }
 
