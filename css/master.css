@@ -34,20 +34,24 @@ header a:hover {
   text-decoration: underline;
 }
 
+header a:active {
+  color: lightgreen;
+}
+
 header .logo a {
   background-image: url("../images/2nature_logo_02_long.jpg");
-  background-size: 300px;
+  background-size: 328px;
   background-repeat: no-repeat;
   display: inline-block;
-  height: 200px;
   position: relative;
   text-indent: -9999999px;
   top: -40px;
-  width: 300px;
+  width: 328px;
+  height: 100px;
 }
 
 /* Responsive Rules */
-@media screen and (max-width: 764px) {
+@media screen and (max-width: 792px) {
   header {
     height: 200px;
   }
