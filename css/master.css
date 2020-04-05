@@ -106,6 +106,10 @@ form.registerForm input {
   text-align: center;
   text-transform: uppercase;
   width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: stretch;
+  align-items: center;
 }
 
 .features figure img {
@@ -115,6 +119,36 @@ form.registerForm input {
   /* Gives it a nice shadow */
   box-shadow: gray 0 0 10px;
   width: 200px;
+  display: flex;
+  justify-content: stretch;
+  align-items: center;
+}
+
+/*form.registerForm {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form.registerForm label {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  flex-grow: 4;
+}*/
+
+.divflex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/* For JavaScript Changes */
+.redBorder {
+  border: 2px solid red !important;
 }
 
 /* Responsive Rules */
